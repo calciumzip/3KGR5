@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Typhoons>
+	<title>10 Strongest Typhoon In Philippine History</title>
+	<typhoon id="1"><name>Yolanda</name><windspeed>110 km/h</windspeed><DamageToProperty>22</DamageToProperty><year>2026</year><deaths>5</deaths></typhoon>
+		<typhoon id="2">
+		<name>Pablo</name>
+		<windspeed>280km/h</windspeed>
+		<DamageToProperty>Php 43.2 billion</DamageToProperty>
+        <year> 2012 </year>
+        <deaths> 1,901 </deaths>
+	</typhoon>
+		<typhoon id="3">
+		<name>Glenda</name>
+		<windspeed>260km/h</windspeed>
+		<DamageToProperty>Php. 38.6 billion</DamageToProperty>
+        <year> 2014 </year>
+        <deaths> 222</deaths>
+	</typhoon>
+	<typhoon id="4">
+		<name>Ompong</name>
+		<windspeed>285 km/h</windspeed>
+		<DamageToProperty>Php  33.9 billion</DamageToProperty>
+        <year> 2018 </year>
+        <deaths> 132 </deaths>
+	</typhoon>
+	<typhoon id="5">
+		<name>Pepeng</name>
+		<windspeed> 215 km/h</windspeed>
+		<DamageToProperty>Php 15.6 billion</DamageToProperty>
+        <year> 2011 </year>
+        <deaths> 95 </deaths>
+	</typhoon>
+	<typhoon id="6">
+		<name>Pedring</name>
+		<windspeed>215 km/h</windspeed>
+		<DamageToProperty>Php 15.6 billion</DamageToProperty>
+        <year> 2011 </year>
+        <deaths> 95 </deaths>
+	</typhoon>
+	<typhoon id="7">
+		<name>Lando</name>
+		<windspeed>240km/h</windspeed>
+		<DamageToProperty>Php 14.4 billion</DamageToProperty>
+        <year> 2015 </year>
+        <deaths> 62 </deaths>
+	</typhoon>
+	<typhoon id="8">
+		<name>Frank</name>
+		<windspeed>205 km/h</windspeed>
+		<DamageToProperty>Php 12 billion</DamageToProperty>
+        <year> 2008 </year>
+        <deaths> 1,371 </deaths>
+	</typhoon>
+	<typhoon id="9">
+		<name>Juan</name>
+		<windspeed>295km/h</windspeed>
+		<DamageToProperty>Php 12 billion</DamageToProperty>
+        <year> 2010 </year>
+        <deaths> 69 </deaths>
+	</typhoon>
+	<typhoon id="10">
+		<name>Ondoy</name>
+		<windspeed>165km/h</windspeed>
+		<DamageToProperty>Php 11 billion</DamageToProperty>
+        <year> 2013 </year>
+        <deaths> 6,300 </deaths>
+	</typhoon>
+</Typhoons>

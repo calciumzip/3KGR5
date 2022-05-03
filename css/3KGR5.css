@@ -1,0 +1,146 @@
+/*styles for the root element typhoon*/
+typhoon
+	{
+		border-radius: 25px;
+		font-weight: bold;
+		font-family: Satoshi;
+		font-size: 10px;
+		
+	}
+	
+/*styles for the element title*/		
+title 
+	{
+		padding-left: 390px ;
+		font-family: Satoshi;
+		font-size: 30px;
+		font-weight: bolder;
+		color: gold;
+		
+	}		
+
+/*styles for the element typhoon*/		
+typhoon
+	{
+		display: block;
+		padding-bottom: 10px;
+	}
+/*styles for the following element*/
+name, windspeed, DamageToProperty, year, deaths 
+	{
+		display: block;
+        font-family: Satoshi;
+		font-size: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		color: black;
+        
+	}
+
+/*styles for the following attributes only*/
+/*syntax is element[attributeName="attributeValue"]*/		
+typhoon[item="1"]
+	{
+		border: 3px solid #4169e1;
+		background-color: #ADD8E6;
+		margin: 10px 300px;
+		
+		
+	}
+
+	typhoon[item="2"] 
+	{
+		border: 3px solid #ADD8E6;
+		background-color: 	#4169e1;
+		margin: 10px 300px;
+	}
+	typhoon[item="3"] 
+	{
+		border: 3px solid #4169e1;
+		background-color: 	#ADD8E6;
+		margin: 10px 300px;
+	}
+	typhoon[item="4"] 
+	{
+		border: 3px solid #ADD8E6;
+		background-color: 	#4169e1;
+		margin: 10px 300px;
+	}
+	typhoon[item="5"]
+	{
+		border: 3px solid #4169e1;
+		background-color: 	#ADD8E6;
+		margin: 10px 300px;
+	}
+	typhoon[item="6"]
+	{
+		border: 3px solid #ADD8E6;
+		background-color: 	#4169e1;
+		margin: 10px 300px;
+	}
+	typhoon[item="7"]
+	{
+		border: 3px solid #4169e1;
+		background-color: 	#ADD8E6;
+		margin: 10px 300px;
+	}
+	typhoon[item="8"]
+	{
+		border: 3px solid #ADD8E6;
+		background-color: 	#4169e1;
+		margin: 10px 300px;
+	}
+	typhoon[item="9"]
+	{
+		border: 3px solid #4169e1;
+		background-color: 	#ADD8E6;
+		margin: 10px 300px;
+	}
+	typhoon[item="10"]
+	{
+		border: 3px solid #ADD8E6;
+		background-color: 	#4169e1;
+		margin: 10px 300px;
+	}
+/*styles for element name*/		
+name
+	{
+		color: white;
+		font-size: 20px;
+		font-style: bold;
+        text-align: center;
+	}
+
+/*inserts a content before the element wind speed*/	
+windspeed::before
+	{
+		content: "Wind Speed: ";
+		font-weight: bolder;	
+	}	
+	
+
+/*inserts a content before the element reso*/		
+DamageToProperty::before
+	{
+		content: "Damage To Property: ";
+		font-weight: bolder;	
+	}
+	
+/*inserts a content before the element size*/		
+year::before
+	{
+		content: "Year: ";
+		font-weight: bolder;	
+	}
+/*styles for element reso*/	
+deaths::before
+{
+	content: "Deaths: ";	
+	font-weight: bolder;
+}
+	
+	
+	
